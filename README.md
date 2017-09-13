@@ -2,7 +2,7 @@
 
 Displays weather conditions based on browser location.
 
-[Live Application](local-weather-dlzl.surge.sh)
+[Live Application](https://local-weather-dlzl.surge.sh)
 
 ### Project Goals
 
