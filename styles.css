@@ -1,0 +1,36 @@
+body {
+    background-color: lightblue;
+    font-family: "Courier New", Courier, monospace;
+    color: #000000;
+}
+
+header, footer {
+    color: #ffffff;
+}
+
+header {
+    letter-spacing: 2px;
+}
+
+.container {
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    position: absolute;
+    display: none;
+}
+
+.jumbotron {
+    margin: 50px 0px;
+    background-color: #ffffff;
+}
+
+.btn {
+    color: #ffffff;
+    background-color: lightblue;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #ffffff;
+}

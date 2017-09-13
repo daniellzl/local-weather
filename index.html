@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Local Weather</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="text-center">
+            <h1><strong>Local Weather</strong></h1>
+        </header>
+        <div class="jumbotron text-center">
+            <h2>Location: <span id="location"></span></h2>
+            <h2>Weather condition: <img id="icon" src="#" alt="Weather Icon"/><span id="condition"></span></h2>
+            <h2>Temperature (<button id="button" title="Change Temperature Unit" class="btn">&#8457;/&#8451;</button>): <span id="temp"></span></h2>
+        </div>
+        <footer class="text-center">
+            <a href="https://www.freecodecamp.com/challenges/show-the-local-weather" target="_blank" title="FreeCodeCamp Challenge Instructions"><strong>Credit</strong></a>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./scripts.js"></script>
+</body>
+
+</html>
