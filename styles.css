@@ -1,36 +1,36 @@
 body {
-    background-color: lightblue;
-    font-family: "Courier New", Courier, monospace;
-    color: #000000;
+  background-color: lightblue;
+  color: #000000;
+  font-family: "Courier New", Courier, monospace;
 }
 
 header, footer {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 header {
-    letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 
 .container {
-    right: 50%;
-    bottom: 50%;
-    transform: translate(50%, 50%);
-    position: absolute;
-    display: none;
+  bottom: 50%;
+  display: none;
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, 50%);
 }
 
 .jumbotron {
-    margin: 50px 0px;
-    background-color: #ffffff;
+  background-color: #ffffff;
+  margin: 50px 0;
 }
 
 .btn {
-    color: #ffffff;
-    background-color: lightblue;
+  background-color: lightblue;
+  color: #ffffff;
 }
 
 a:link, a:visited, a:hover, a:active {
-    text-decoration: none;
-    color: #ffffff;
+  color: #ffffff;
+  text-decoration: none;
 }
